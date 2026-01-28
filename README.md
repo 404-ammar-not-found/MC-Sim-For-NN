@@ -10,9 +10,7 @@ This project builds a neural network surrogate to approximate European call opti
 - Demonstrates Monte Carlo convergence to the Black–Scholes price
 - Generates a large synthetic dataset using Monte Carlo simulation
 - Trains a neural network to learn the pricing map  
-$$
-  (S_0, K, T, r, \sigma) \rightarrow \text{Call Price}
-$$
+$$(S_0, K, T, r, \sigma) \rightarrow \text{Call Price}$$
 - Compares:
   - Neural network vs Black–Scholes accuracy
   - Neural network vs Monte Carlo runtime performance
